@@ -262,4 +262,119 @@ visibility: hidden;
   width: 50%;
 }
 
+ @media screen and (max-width:1800px) {
+
+  header{
+    font-size: 80%;
+    height: 4%;
+  }
+  
+  
+  nav li{
+    overflow: hidden;
+top: 0vh;
+left: 30%;
+font-size: 100%;
+  }
+  
+  body{
+    background-repeat: repeat-y;
+  }
+  .wrapper h1{
+    font-size: fixed;
+    
+  }
+}
+
  
+ @media screen and (max-width:1040px) {
+
+  header{
+    font-size: 80%;
+    height: 4%;
+  }
+  
+  nav li{
+    overflow: hidden;
+left: 30%;
+  }
+  .loginbox{
+    left: 20%;
+  }
+  nav h1{
+    font-size: 100000vw;
+  }
+  .wrapper h1{
+    font-size: 250%;
+  }
+  
+}
+ @media screen and (max-width:805px) {
+
+  header{
+    font-size: .9vh;
+    height: 4%;
+  }  
+  nav li{
+    overflow: hidden;
+top: 0vh;
+left: 25%;
+font-size: 1.5vh;
+margin: 0;
+
+  }
+  .wrapper h1{
+    font-size: 195%;
+  }
+  .loginbox{
+    left: 10%;
+  }
+    
+ }
+ @media screen and (max-width:655px) {
+  header{
+    font-size: .9vh;
+    height: 4%;
+    position: fixed;
+  }
+  
+  .wrapper{
+    position: fixed;
+  }
+  .wrapper h1{
+    font-size: 183.5%;
+  }
+  nav li{
+    overflow: hidden;
+top: 0vh;
+left: 25%;
+font-size: 1.5vh;
+position:relative;
+
+  }
+  
+ }
+ @media screen and (max-width:404px) {
+  header{
+    font-size: .9vh;
+    height: 4%;
+    position: fixed;
+  }
+  
+  .wrapper{
+    position: fixed;
+  }
+  .wrapper h1{
+    font-size: 181%;
+  }
+  nav li{
+    overflow: hidden;
+top: 0vh;
+left: 25%;
+font-size: 1.5vh;
+position:relative;
+
+  }
+  
+    
+ }
