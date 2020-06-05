@@ -329,7 +329,7 @@ body{
         position: fixed;
       }
       .wrapper h1{
-        font-size: 95%;
+        font-size: 100%;
       }
       nav li{
         overflow: hidden;
