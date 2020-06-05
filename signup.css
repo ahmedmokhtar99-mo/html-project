@@ -356,7 +356,32 @@ body{
       top:40vh;
       
     }
+    @media screen and (max-width:415px) {
+      header{
+        font-size: .9vh;
+        height: 4%;
+        position: fixed;
+      }
+      
+      .wrapper{
+        position: fixed;
+      }
+      .wrapper h1{
+        font-size: 189.2%;
+      }
+      nav li{
+        overflow: hidden;
+    top: 0vh;
+    left: 25%;
+    font-size: 1.5vh;
+    position:relative;
     
+      }
+      .loginbox{
+        top:40vh;
+      }
+        
+     }
    }
    @media screen and (max-width:404px) {
     header{
@@ -369,7 +394,7 @@ body{
       position: fixed;
     }
     .wrapper h1{
-      font-size: 182.5%;
+      font-size: 189%;
     }
     nav li{
       overflow: hidden;
