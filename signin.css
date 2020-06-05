@@ -69,31 +69,29 @@ nav a:hover::before{
 }
 
 .wrapper{
-background-color:#0E2A47;
-  width:100%;
+  background-color:#0E2A47;
   height: 30vh;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
-;}
+}
 .wrapper h1{
-color: #fff;
-font-family: 'Parisienne', cursive;
-font-size: 50px;
+  color: #fff;
+  font-family: 'Parisienne', cursive;
+  font-size: 300%;
 }
 .loginbox{
 width:320px;
 height: 420px;
 background-color:#0b2239;
- top: 40%;
+ top: 10vh;
 left: 40%;
-position: absolute;
+position: relative;
 transform: translate(-50,-50);
 box-sizing: border-box;
 padding: 70px 30px;
 border-radius: 30px;
-max-width: 100%;
 }
 .avatar{
   width: 100px;
@@ -158,201 +156,192 @@ color: darkgrey;
   color:#000;
 }
 @media screen and (max-width:1800px) {
-
+  
   header{
     font-size: 80%;
     height: 4%;
   }
-  .wrapper{
-    max-width: 100%;
-  }
-  .wrapper h1{
-display: none;
-  }
+  
+  
   nav li{
     overflow: hidden;
-top: -1vh;
+top: 0vh;
 left: 30%;
 font-size: 100%;
   }
   
-  
+  body{
+    background-repeat: repeat-y;
+  }
+  .wrapper h1{
+    font-size: fixed;
+    
+  }
 }
 
  
- @media screen and (max-width:1010px) {
+ @media screen and (max-width:1040px) {
 
   header{
     font-size: 80%;
     height: 4%;
   }
-  .wrapper{
-    max-width: 100%;
-  }
-  .wrapper h1{
-display: none;
-  }
-  .searchbox{
-    top: 50%;
-    bottom: 50%;
-  }
+  
   nav li{
     overflow: hidden;
-top: 0vh;
 left: 30%;
+font-size: 1.7vh;
+top:-4vh;
   }
-  .loginbox{
-    left: 30%;
-    right: 0%;
+  
+  nav h1{
+    font-size: 100000vw;
+  }
+  .wrapper h1{
+    font-size: 250%;
   }
   
 }
- @media screen and (max-width:835px) {
+ @media screen and (max-width:805px) {
 
   header{
-    font-size: 1vh;
+    font-size: .9vh;
     height: 4%;
-  }
-  .wrapper{
-    max-width: 100%;
-  }
-  .wrapper h1{
-display: none;
-  }
-  .searchbox{
-    top: 50%;
-    bottom: 50%;
-  }
+  }  
   nav li{
     overflow: hidden;
-top: -7vmin;
+top: -6vh;
 left: 25%;
-font-size: 1.8vw;
+font-size: 1.5vh;
+margin: 0;
+
   }
-  
-}
-  
-  
+  .wrapper h1{
+    font-size: 195%;
+  }
+  .loginbox{
+    left: 30%;
+  }
     
-}
-@media screen and (max-width:741px) {
-
+ }
+ @media screen and (max-width:655px) {
   header{
-    font-size: 1.5vw;
+    font-size: .9vh;
     height: 4%;
+    position: fixed;
+  }
+  body{
+    position: absolute;
   }
   .wrapper{
-    max-width: 100%;
+    position: fixed;
   }
   .wrapper h1{
-display: none;
-  }
-  .searchbox{
-    top: 50%;
-    bottom: 50%;
+    font-size: 190.2%;
   }
   nav li{
     overflow: hidden;
-top: 0vh;
-left: 10%;
-font-size: 1.8vw;
-  }
+top: -7vh;
+left: 25%;
+font-size: 1.5vh;
+position:relative;
 
+  }
+  .loginbox{
+    top:40vh;
+    
+  }
+  @media screen and (max-width:415px) {
+    header{
+      font-size: .9vh;
+      height: 4%;
+      position: fixed;
+    }
+    
+    .wrapper{
+      position: fixed;
+    }
+    .wrapper h1{
+      font-size: 115%;
+    }
+    nav li{
+      overflow: hidden;
+  top: -8vh;
+  left: 25%;
+  font-size: 1.1vh;
+  position:relative;
   
-}
-@media screen and (max-width:571px) {
-
+    }
+    .loginbox{
+      top:40vh;
+      left:10vw;
+    }
+    .logo{
+      width: 8%;
+      left: 10vw;
+    }
+   }
+ }
+ @media screen and (max-width:404px) {
   header{
-    font-size: 1.9vw;
+    font-size: .7vh;
     height: 4%;
+    position: fixed;
   }
+  
   .wrapper{
-    max-width: 100%;
+    position: fixed;
   }
   .wrapper h1{
-display: none;
-  }
-  .searchbox{
-    top: 50%;
-    bottom: 50%;
+    font-size: 189%;
   }
   nav li{
     overflow: hidden;
-top: -4vh;
+top: -7vh;
 left: 30%;
-font-size: 2.1;
+font-size: 1.1vh;
+position:relative;
+  }
+
+  .logo{
+    width: 8%;
   }
   .loginbox{
-    left: 20%;
+    top:40vh;
+    left:10vw;
   }
-  
-  
-}
-@media screen and (max-width:427px) {
-
+    
+ }
+ @media screen and (max-width:376px)and (max-height: 668px) {
   header{
-    font-size: 1.9vw;
+    font-size: .7vh;
     height: 4%;
+    position: fixed;
   }
+  
   .wrapper{
-    max-width: 100%;
+    position: fixed;
   }
   .wrapper h1{
-display: none;
-  }
-  .searchbox{
-    top: 50%;
-    bottom: 50%;
+    font-size: 189%;
   }
   nav li{
     overflow: hidden;
-top: -4vh;
-left: 40%;
-font-size: 2vw;
-margin: -2%;
+top: -9vh;
+left: 30%;
+font-size: 1.5vh;
+position:relative;
+  }
+
+  .logo{
+    width: 8%;
   }
   .loginbox{
-    left: 30%;
-    max-width: 50%;
+    top:40vh;
+    left:10vw;
   }
-  .avatar{
-    left: 0%;
-  }
-  
-}
-@media screen and (max-width:375px) {
-
-  header{
-    font-size: 1.9vw;
-    height: 4%;
-  }
-  .wrapper{
-    max-width: 100%;
-  }
-  .wrapper h1{
-display: none;
-  }
-  .searchbox{
-    top: 50%;
-    bottom: 50%;
-  }
-  nav li{
-    overflow: hidden;
-top: -4vh;
-left: 40%;
-font-size: 2vw;
-margin: -2%;
-  }
-  .loginbox{
-    left: 30%;
-    max-width: 50%;
-  }
-  .avatar{
-    left: 0%;
-  }
-  
-}
-
+    
+ }
 
 
 
