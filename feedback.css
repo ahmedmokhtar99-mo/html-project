@@ -38,7 +38,7 @@ body{
     }
     nav li{
       display: inline-block;
-      padding-top: 20px;
+      padding-top: 4%;
       position: relative;
       left: 30%;
     }
@@ -69,8 +69,6 @@ body{
     
     .wrapper{
       background-color:#0E2A47;
-max-width: 100%;
-      width:100%;
       height: 30vh;
       background-size: cover;
       display: flex;
@@ -93,7 +91,7 @@ max-width: 100%;
     background-color:#0b2239;
      top: 40%;
     left: 35%;
-    position: absolute;
+    position: relative;
     transform: translate(-50,-50);
     box-sizing: border-box;
     padding: 70px 30px;
@@ -201,28 +199,26 @@ font-family: cursive;
     font-family: cursive;   
      }
      @media screen and (max-width:1800px) {
-
+  
       header{
         font-size: 80%;
         height: 4%;
       }
-      .wrapper{
-        max-width: 100%;
-      }
-      .wrapper h1{
-    display: none;
-      }
+      
+      
       nav li{
         overflow: hidden;
-    top: -1vh;
+    top: 0vh;
     left: 30%;
     font-size: 100%;
       }
-      .loginbox {
-        left: 20%;
-      }
+      
       body{
         background-repeat: repeat-y;
+      }
+      .wrapper h1{
+        font-size: fixed;
+        
       }
     }
     
@@ -233,25 +229,23 @@ font-family: cursive;
         font-size: 80%;
         height: 4%;
       }
-      .wrapper{
-        max-width: 100%;
-      }
-      .wrapper h1{
-    display: none;
-      }
-      .searchbox{
-        top: 50%;
-        bottom: 50%;
-      }
+      
       nav li{
         overflow: hidden;
-    top: -1vh;
     left: 30%;
       }
       .loginbox{
-        left: 10%;
-        right: 0%;
-        max-width: 70%;
+        left: 20%;
+      }
+      .loginbox img{
+        width: 3vw;
+        height: 3vh;
+      }
+      nav h1{
+        font-size: 100000vw;
+      }
+      .wrapper h1{
+        font-size: 250%;
       }
       
     }
@@ -260,164 +254,141 @@ font-family: cursive;
       header{
         font-size: .9vh;
         height: 4%;
-      }
-      .wrapper{
-        max-width: 200%;
-      }
-      .wrapper h1{
-    display: none;
-      }
-      .searchbox{
-        top: 50%;
-        bottom: 50%;
-      }
+      }  
       nav li{
         overflow: hidden;
-    top: -1vh;
+    top: 0vh;
     left: 25%;
     font-size: 1.5vh;
     margin: 0;
     
       }
+      .wrapper h1{
+        font-size: 195%;
+      }
       .loginbox{
-        max-width: 50%;
-        left: 30%;
-    
+        left: 10%;
+        width: 80vw;
       }
-    .loginbox img{
-      width: 5%;
-      height: 3vh;
-    } 
-    .loginbox p{
-      font-size: 1.5vh;
-    } 
-      
-      
-      .logo{
-        width: 5%;
-        height: 3vh;
+      .face {
+       display: none;
       }
-      .avatar{
-        left: 0%;
-      }
-      
-    }
-      
-      
         
-    }
-    @media screen and (max-width:750px) {
-    
+     }
+     @media screen and (max-width:801px) {
       header{
-        font-size: 1.5vw;
+        font-size: .9vh;
         height: 4%;
+        position: fixed;
+      }
+      body{
+        position: absolute;
       }
       .wrapper{
-        max-width: 100%;
+        position: fixed;
       }
-      
+      .wrapper h1{
+        font-size: 406.2%;
+      }
       nav li{
         overflow: hidden;
     top: 0vh;
-    left: 10%;
-    font-size: 1.7vw;
-      }
+    left: 25%;
+    font-size: 1vh;
+    position:relative;
     
+      }
+      .loginbox{
+        top:40vh;
+        
+      }
+      @media screen and (max-width:706px) {
+        header{
+          font-size: .9vh;
+          height: 4%;
+          position: fixed;
+        }
+        body{
+          position: absolute;
+        }
+        .wrapper{
+          position: fixed;
+        }
+        .wrapper h1{
+          font-size: 359%;
+        }
+        nav li{
+          overflow: hidden;
+      top: -5vh;
+      left: 25%;
+      font-size: 1vh;
+      position:relative;
       
-    }
-    @media screen and (max-width:640px) {
-    
+        }
+        .loginbox{
+          top:40vh;
+          
+        }
+      @media screen and (max-width:476px) {
+        header{
+          font-size: .9vh;
+          height: 4%;
+          position: fixed;
+        }
+        
+        .wrapper{
+          position: fixed;
+        }
+        .wrapper h1{
+          font-size: 211.8%;
+        }
+        nav li{
+          overflow: hidden;
+      top: -5vh;
+      left: 25%;
+      font-size: 1.3vh;
+      position:relative;
+      
+        }
+        .loginbox{
+          top:40vh;
+        }
+        .logo{
+          width: 5vw;
+          height: 5vh;
+        }
+       }
+     }
+     @media screen and (max-width:404px) {
       header{
-        font-size: 1.9vw;
+        font-size: .8vh;
         height: 4%;
+        position: fixed;
       }
+      
       .wrapper{
-        max-width: 100%;
+        position: fixed;
       }
       .wrapper h1{
-    display: none;
-      }
-      .searchbox{
-        top: 50%;
-        bottom: 50%;
+        font-size: 191.7%;
       }
       nav li{
         overflow: hidden;
-    left: 30%;
-    font-size: 1.6;
     top: -5vh;
-      }
-      .loginbox{
-        left: 20%;
-      }
-      .loginbox p{
-        font-size: 1vh;
-        font-size: 1.7vw;
-      } 
-      
-      
-    }
-    @media screen and (max-width:523px) {
+    left: 25%;
+    font-size: 1vh;
+    position:relative;
     
-      header{
-        font-size: 1.9vw;
-        height: 4%;
-      }
-      .wrapper{
-        max-width: 100%;
-      }
-      .wrapper h1{
-    display: none;
-      }
-      .searchbox{
-        top: 50%;
-        bottom: 50%;
-      }
-      nav li{
-        overflow: hidden;
-    top: -4vh;
-    left: 40%;
-    font-size: 2.2vw;
-    margin: -2%;
       }
       .loginbox{
-        left: 30%;
-        max-width: 50%;
+        top:40vh;
       }
-      .loginbox img{
-        width: 5;
+      .logo{
+        width: 5vw;
+        height: 5vh;
       }
-      .avatar{
-        max-width: 30%;
-      }
-      
-      
-    }
-    @media screen and (max-width:375px) {
+        .re{
+          font-size: 10vh;
+        }
+     }
     
-      header{
-        font-size: 1.2vw;
-        height: 2%;
-      }
-      .wrapper{
-        max-width: 100%;
-      }
-      nav li{
-        overflow: hidden;
-    left: 10%;
-    top: -5vh;
-    margin: 0%;
-      }
-      .loginbox{
-        left: 20%;
-        max-width: 70%;
-      
-      }
-      .avatar{
-        max-width: 30%;
-      }
-      bod
-      
-      
-    }
-     
