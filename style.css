@@ -72,13 +72,13 @@ nav a:hover::before{
 .wrapper{
   
   background-color:#0E2A47;
-  width:100%;
   height: 40vh;
   background-size: cover;
   justify-content: center;
   align-items: center;
 display: flow-root;
 position: relative;
+width: 100%;
 }
 .wrapper h1{
   overflow: hidden;
@@ -206,11 +206,9 @@ color:#fff;
     font-size: 80%;
     height: 4%;
   }
-  .wrapper{
-    max-width: 100%;
-  }
+
+  
   .wrapper h1{
-display: none;
   }
   .searchbox{
     top: 50%;
@@ -249,10 +247,12 @@ font-size: 150%;
     height: 4%;
   }
   .wrapper{
-    max-width: 100%;
+    position: fixed;
+
   }
+
   .wrapper h1{
-display: none;
+    font-size: 300%;
   }
   .searchbox{
     top: 50%;
@@ -268,6 +268,7 @@ left: 30%;
     max-height: 30vh;
     left: 10%;
     right: 50%;
+    top: 35vh;
   }
   .book1 img{
     max-width: 100%;
@@ -287,14 +288,12 @@ left: 30%;
     font-size: 1vh;
     height: 4%;
   }
-  .wrapper{
-    max-width: 100%;
+  
   }
   .wrapper h1{
-display: none;
   }
   .searchbox{
-    top: 50%;
+    top: 10%;
     bottom: 50%;
   }
   nav li{
@@ -330,11 +329,7 @@ font-size: 1.5vw;
     font-size: 1.5vw;
     height: 4%;
   }
-  .wrapper{
-    max-width: 100%;
-  }
   .wrapper h1{
-display: none;
   }
   .searchbox{
     top: 50%;
@@ -370,11 +365,8 @@ font-size: 1.8vw;
     font-size: 1.9vw;
     height: 4%;
   }
-  .wrapper{
-    max-width: 100%;
-  }
+
   .wrapper h1{
-display: none;
   }
   .searchbox{
     top: 50%;
@@ -410,19 +402,18 @@ font-size: 2.1;
     font-size: 1.9vw;
     height: 4%;
   }
-  .wrapper{
-    max-width: 100%;
-  }
+  
   .wrapper h1{
-display: none;
+    font-size: 150%;
+;
   }
   .searchbox{
-    top: 50%;
+    top: 10%;
     bottom: 50%;
   }
   nav li{
     overflow: hidden;
-top: -6vh;
+top: -7vh;
 left: 40%;
 font-size: 2vw;
 margin: -2%;
@@ -447,6 +438,46 @@ margin: -2%;
 }
 
 
+@media screen and (max-width:330px) {
+
+  header{
+    font-size: 1.9vw;
+    height: 4%;
+  }
+  
+  .wrapper h1{
+    font-size: 150%;
+;
+  }
+  .searchbox{
+    top: 10%;
+    bottom: 50%;
+  }
+  nav li{
+    overflow: hidden;
+top: -10vh;
+left: 40%;
+font-size: 2vw;
+margin: -2%;
+  }
+  .book1{
+    max-width: 25%;
+    max-height: 30vh;
+    left: 10%;
+    right: 50%;
+  }
+  .book1 img{
+    max-width: 100%;
+    max-height: 30vh;
+  }
+  .book1 p{
+    font-size: 50%;
+  }
+  .book1 h2{
+    font-size: 50%;
+  }
+  
+}
 
 
 
